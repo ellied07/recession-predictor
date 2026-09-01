@@ -124,21 +124,27 @@ The project demonstrates several challenges involved in recession forecasting:
 
 ## Project Structure
 
+## Project Structure
+
+```text
 recession-predictor/
 ├── data/
-│   ├── raw/                 # Raw macroeconomic data from FRED
-│   └── processed/           # Cleaned and model-ready datasets
-├── figures/                 # Model evaluation and visualization outputs
+│   ├── raw/                  # Raw macroeconomic data from FRED
+│   └── processed/            # Cleaned and model-ready datasets
+├── figures/                  # Model evaluation and visualization outputs
 ├── notebooks/
 │   ├── 01_data_exploration.ipynb
 │   ├── 02_data_cleaning.ipynb
 │   ├── 03_feature_engineering.ipynb
 │   └── 04_modeling.ipynb
 ├── src/
-│   └── fetch_fred.py        # Downloads data from the FRED API
+│   └── fetch_fred.py         # Downloads data from the FRED API
 ├── .gitignore
 ├── README.md
 └── requirements.txt
+```
+
+## How to Run the Project
 
 ## How to Run the Project
 
