@@ -124,8 +124,6 @@ The project demonstrates several challenges involved in recession forecasting:
 
 ## Project Structure
 
-## Project Structure
-
 ```text
 recession-predictor/
 ├── data/
